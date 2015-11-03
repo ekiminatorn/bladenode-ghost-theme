@@ -1,0 +1,160 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #f2f4f7;
+}
+
+.paperbox{
+	background-color: white;
+	border-radius: 6px;
+	border: 1px solid #DAD9DB;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+.paperbox-apply{
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+
+.label-position{
+	display: inline-block;
+	float: left;
+	margin: 26px 100px;
+}
+
+.username-position{
+
+	margin: 25px 10px;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.paperbox-application-status{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border-radius: 6px;
+}
+
+.textwrap{
+	float: right;
+	margin: 10px;
+}
+
+.minecraftblock{
+position: fixed;
+right: 200px;
+top: 500px;
+}
+
+.centered{
+	text-align: center;
+}
+
+.right{
+ float: right;
+}
+
+.activelink{
+background-color: #18132E;
+}
+
+.dropdownmenulink li:focus{
+background-color: red;
+color: red;
+}
+
+.navbar .nav > li.dropdown.open.active > a:hover, 
+.navbar .nav > li.dropdown.open > a
+{
+   color: #fff;
+   background-color: #18132E;
+   border-color: #fff;
+}
+/* This code makes buttons blue after they have been visited :-(
+.twitter a:link, a:visited{
+	color: #4C99B5;
+	font-weight: bold;
+	text-decoration:none;
+}
+*/
+
+.twitter a:active, a:hover{
+	color: #d8f3fd;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.75), 0 0 5px rgba(198,234,247,0.4);	
+}
+
+.legal{
+	font-size: 11px;
+}
+
+.required{
+	color: red;
+}
+
+.modalcontent {
+	color: black;
+}
+
+.splash-sub {
+	color: white;
+	text-align: center;
+}
+
+.splash{
+	font-size: 30px;
+	border: 4px solid white;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 1em 1.6em;
+	color: white;
+	text-align: center;
+}
+
+.navigationbar{
+  background-color:#352F4D;
+  border: #352F4D;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #CAC9D1;
+  background-color: transparent;
+}
+
+.navbar-nav.navbar-right:last-child {
+  /*Move the fuckin' navbar links away from right corner*/
+    margin-right: 15px;
+}
+
+.navbar-default .navbar-brand {
+/*White brand name*/
+  color: #FFFFFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+color: #FFFFFF;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 3px;
+}
+
+.testing{
+background-color:blue;
+}	
