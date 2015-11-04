@@ -961,9 +961,9 @@ img {
 }
 hr {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #E3E3E3;
 }
 .sr-only {
   position: absolute;
