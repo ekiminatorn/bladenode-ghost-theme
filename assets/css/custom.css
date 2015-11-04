@@ -3,21 +3,42 @@ body {
 	background-color: #e7e7e7;
 }
 
+.main-titles{
+	margin: 15px;
+	text-shadow: 1px 2px #808080;
+}
+
 .paperbox{
 	background-color: white;
 	border-radius: 5px;
 	border: 1px solid #DAD9DB;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	margin: 15px;
+	margin-top: 0px;
+	box-shadow: 4px 4px 4px #ADADAD;
+	
+	font-size: 16px;
+	line-height: 135%;
+}
+
+.twitter-paperbox{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #DAD9DB;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
 	margin: 15px;
 	margin-top: 0px;
 	box-shadow: 4px 4px 4px #ADADAD;
 }
 
 .article-wrapper{   
-	margin: 0px 15px 60px 15px;
+	margin: 0px 15px 45px 15px;
 	box-shadow: 4px 4px 4px #ADADAD;
 	background-color: white;
     border-radius: 5px;
