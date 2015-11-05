@@ -58,8 +58,6 @@ body {
 
 .article-header-title{
 	background-color: #352F4D;
-
-	
 	color: white;
 	text-shadow: 1px 1px 0 #000;
 }
@@ -100,7 +98,6 @@ body {
 	
 	color: white;
 	text-shadow: 1px 1px #303030;
-
 }
 
 .footer:after {
