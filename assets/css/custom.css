@@ -45,7 +45,7 @@ body {
 }
 
 .article-header-wrapper{
-	background-color: #352F4D;
+	background-color: #5E5E5E;
 	height: auto;
 	position: relative;
 	border-top-right-radius: 5px;
@@ -57,9 +57,27 @@ body {
 }
 
 .article-header-title{
-	background-color: #352F4D;
+	background-color: #5E5E5E;
 	color: white;
 	text-shadow: 1px 1px 0 #000;
+}
+
+.article-header-title > a{
+	color: white;
+	-o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+	transition:.4s;	
+}
+
+.article-header-title a:link .article-header-title a:visited .article-header-title a:active{
+	color: white;
+}
+
+.article-header-title a:hover{
+	color: #2BA4CC;
+	text-decoration: none;
 }
 
 .article-content{
