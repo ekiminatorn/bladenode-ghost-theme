@@ -7,11 +7,11 @@
 	<meta name="description" content="Bladenode voIP Services">
 	<meta name="author" content="Emil E">
 	
-    <title>BladeNode</title>
+    <title>{{meta_title}}</title>
 
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet"> 
-	<link href="assets/css/custom.css" rel="stylesheet">
+    <link href="{{asset "css/bootstrap.css"}}" rel="stylesheet"> 
+	<link href="{{asset "css/custom.css"}}" rel="stylesheet">
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	
@@ -69,35 +69,30 @@
  <div class="row">
  
  <div class="col-md-9">
-  
-  <!-- Welcome section -->
-  
-  <h2 class="main-titles"></h2>
-
-  
+ {{#post}}
   
  <div class="article-wrapper">
 	<div class="article-header-wrapper">
-	<h3 class="article-header-title"><a href="#">Title need to write a really long title bla bla need long title cannot</a></h3>
+	<h3 class="article-header-title"><a href="{{url}}">{{{title}}}</a></h3>
 
 		<span class="glyphicon glyphicon-time" style="color: white"></span>
-		<time datetime="04-11-2015" itemprop="datePublished">
-		  <span style="color: white">&nbsp Nov 04 2015</span>
+		<time datetime="{{date published_at timeago="true" format="MMMM DD, YYYY"}}" itemprop="datePublished">
+		  <span style="color: white">&nbsp {{date published_at format="MMMM DD, YYYY"}}</span>
 		</time>
 
 	</div>
 	<div class="article-content">
-	Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam. Donec ipsum, vestibulum ullamcorper venenatis augue. Aliquam tempus nisi in auctor vulputate, erat felis pellentesque augue nec, pellentesque lectus justo nec erat. Aliquam et nisl. Quisque sit amet dolor in justo pretium condimentum.
+	{{content}}
 	<hr>
 	</div>
 	<div class="article-footer">
-	  
-	  <span style="text-align: right"><span class="glyphicon glyphicon-user"></span>&nbsp Published by: Emil E</span>
-	  	  
+	  {{#author}}
+	  <span style="text-align: right"><span class="glyphicon glyphicon-user"></span>&nbsp Published by: {{name}}</span>
+	  {{/author}}  
 	</div>
  
  </div>
- 
+ {{/post}}
  </div>
  
 	  <!-- Tweets section -->
