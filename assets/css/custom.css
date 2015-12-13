@@ -45,7 +45,7 @@ body {
 }
 
 .article-header-wrapper{
-	background-color: #5E5E5E;
+	background-color: #352F4D;
 	height: auto;
 	position: relative;
 	border-top-right-radius: 5px;
@@ -57,7 +57,7 @@ body {
 }
 
 .article-header-title{
-	background-color: #5E5E5E;
+	background-color: #352F4D;
 	color: white;
 	text-shadow: 1px 1px 0 #000;
 }
